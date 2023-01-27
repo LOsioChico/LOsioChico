@@ -33,6 +33,6 @@
   <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LOsioChico&show_icons=true&theme=gotham">
 </p>
 
-<!-- <p align="center"> -->
-<!--   <img alt="Wakatime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=LOsioChico)](https://github.com/anuraghazra/github-readme-stats"> -->
-<!--   </p> -->
+<p align="center">
+  <img alt="Wakatime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=LOsioChico">
+  </p>
