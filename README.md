@@ -11,7 +11,7 @@
 ### <i>About</i>
 
 -  **Learning :** Front-End Development🎨
--  **Languages :** HTML, CSS, JS, TS
+-  **Languages :** HTML, CSS, JS, TS, React
 -  **Hobbies :** Books📕, Music🎧, videogames🎮 
 -  **Fact :** 🚀 Better late than never! Let's get started. ❤️
 
