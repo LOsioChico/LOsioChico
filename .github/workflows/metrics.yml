@@ -19,6 +19,7 @@ jobs:
       - name: Personal metrics
         uses: lowlighter/metrics@latest
         with:
+          filename: assets/metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: 'header, activity, repositories'
@@ -37,3 +38,24 @@ jobs:
           plugin_topics_limit: 15
           config_timezone: America/Bogota
           config_padding: 10%
+
+      - name: Personal metrics (2)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/metrics2.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ''
+          config_timezone: America/Bogota
+          config_padding: 10%
+          plugin_music: yes
+          plugin_music_provider: spotify
+          plugin_music_mode: recent
+          plugin_music_token: '${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}'
+          plugin_music_limit: 5
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_stargazers: yes
+          plugin_stars: yes
+          plugin_stars_limit: 3
