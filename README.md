@@ -37,13 +37,3 @@
 <code><img width="30px" height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" title="CSS3"></code>
 <code><img width="30px" height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" title="javascript"></code>
 <code><img width="30px" height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" title="git"></code>
-
----
-
-<p align="center">
-  <img alt="Isha's Github Stats" src="https://github-readme-stats.vercel.app/api?username=LOsioChico&show_icons=true&theme=gotham">
-</p>
-
-<p align="center">
-  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LOsioChico&show_icons=true&theme=gotham">
-</p>
