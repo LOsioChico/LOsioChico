@@ -13,7 +13,7 @@ jobs:
       - name: Awesome generator
         uses: simonecorsi/mawesome@latest
         with:
-          api-token: ${{secrets.GH_TOKEN}}
+          api-token: ${{secrets.GITHUB_TOKEN}}
           github-email: ${{secrets.USER_EMAIL}}
           github-name: LOsioChico
           output-filename: testing.md
