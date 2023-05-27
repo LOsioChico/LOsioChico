@@ -1,0 +1,16 @@
+name: update awesome-stars
+on:
+  schedule:
+    - cron: '30 0 * * *'
+jobs:
+  awesome-starts:
+    name: update awesome-stars
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: install dependencies
+        run: npm install --no-audit --no-fund --no-optional
