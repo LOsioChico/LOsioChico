@@ -1,7 +1,3 @@
-<p align="center">
-  <img width="300" height="200" src="./assets/meliodas-yo-zeldris.gif">
-</p>
-
 [![WakaTime Stats in README](https://github.com/LOsioChico/LOsioChico/actions/workflows/waka.yml/badge.svg)](https://github.com/LOsioChico/LOsioChico/actions/workflows/waka.yml) [![GitHub metrics](https://github.com/LOsioChico/LOsioChico/actions/workflows/metrics.yml/badge.svg)](https://github.com/LOsioChico/LOsioChico/actions/workflows/metrics.yml)
 
 ---
