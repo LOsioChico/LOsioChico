@@ -16,6 +16,7 @@ jobs:
         with:
           filename: assets/metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
           base: 'header, activity, repositories'
           plugin_lines: yes
           plugin_isocalendar: yes
