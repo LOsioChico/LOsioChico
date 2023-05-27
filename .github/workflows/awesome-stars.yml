@@ -1,16 +1,17 @@
-name: update awesome-stars
+name: Update awesome list
 on:
   schedule:
-    - cron: '30 0 * * *'
+    - cron: 0 0 * * *
 jobs:
   awesome-starts:
-    name: update awesome-stars
+    name: Update awesome list
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: setup node
-        uses: actions/setup-node@v3
+      - name: Awesome generator
+        uses: simonecorsi/mawesome@latest
         with:
-          node-version: '18'
-      - name: install dependencies
-        run: npm install --no-audit --no-fund --no-optional
+          api-token: ${{secrets.GH_TOKEN}}
+          github-email: ${{secrets.USER_EMAIL}}
+          github-name: LOsioChico
+          output-filename: testing.md
