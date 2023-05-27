@@ -2,6 +2,13 @@
 
 ---
 
+# My GitHub Stats 📈
+
+| ![](./assets/metrics.svg) | ![](./assets/metrics2.svg) |
+| ------------------------- | -------------------------- |
+
+---
+
 # Technologies & Tools 🛠️
 
 <details>
@@ -113,12 +120,3 @@ Last Updated on 27/05/2023 06:33:57 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
-
----
-
-## My GitHub Stats 📈
-
-| ![](./assets/metrics.svg) | ![](./assets/metrics2.svg) |
-| ------------------------- | -------------------------- |
-
----
