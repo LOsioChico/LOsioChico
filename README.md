@@ -1,10 +1,8 @@
 <p align="center">
-  <img width="300" height="200" src="https://github.com/LOsioChico/LOsioChico/blob/main/meliodas-yo-zeldris.gif">
+  <img width="300" height="200" src="./assets/meliodas-yo-zeldris.gif">
 </p>
 
-[![Linkedin Badge](https://img.shields.io/badge/-LOsioChico-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/losiochico//)](https://www.linkedin.com/in/losiochico/)
-[![Twitter Badge](https://img.shields.io/badge/-osiochico-1ca0f1?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/osiochico)](https://twitter.com/osiochico)
-[![GitHub followers](https://img.shields.io/github/followers/LOsioChico.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/LOsioChico?tab=followers)
+[![WakaTime Stats in README](https://github.com/LOsioChico/LOsioChico/actions/workflows/waka.yml/badge.svg)](https://github.com/LOsioChico/LOsioChico/actions/workflows/waka.yml) [![GitHub metrics](https://github.com/LOsioChico/LOsioChico/actions/workflows/metrics.yml/badge.svg)](https://github.com/LOsioChico/LOsioChico/actions/workflows/metrics.yml)
 
 ---
 
@@ -84,14 +82,5 @@ Last Updated on 27/05/2023 06:33:57 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
-
----
-
-### <i>About</i>
-
-- **Learning :** Front-End Development🎨
-- **Languages :** HTML, CSS, JS, TS, React
-- **Hobbies :** Books📕, Music🎧, videogames🎮
-- **Fact :** 🚀 Better late than never! Let's get started. ❤️
 
 ---
