@@ -3,6 +3,9 @@ on:
   schedule:
     # Runs at 12am UTC every day
     - cron: '0 0 * * *'
+  push:
+    branches:
+      - master
   workflow_dispatch:
 jobs:
   # The job below generates the images displayed on lowlighter/lowlighter
