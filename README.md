@@ -15,13 +15,13 @@
 <br>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-369%20hrs%2046%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-369%20hrs%2048%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-11.1%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 ? Used in GitHub's Storage 
+> 📦 3.2 kB Used in GitHub's Storage 
  > 
 > 🏆 84 Contributions in the Year 2023
  > 
@@ -29,7 +29,7 @@
  > 
 > 📜 7 Public Repositories 
  > 
-> 🔑 0 Private Repositories 
+> 🔑 1 Private Repositories 
  > 
 **I'm an Early 🐤** 
 
@@ -74,7 +74,7 @@ TypeScript               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 27/05/2023 06:19:35 UTC
+ Last Updated on 27/05/2023 06:24:46 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
