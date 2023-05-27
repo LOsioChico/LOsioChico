@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{secrets.GITHUB_TOKEN}}
+          fetch-depth: 0
+          lfs: true
       - name: Awesome generator
         uses: simonecorsi/mawesome@latest
         with:
