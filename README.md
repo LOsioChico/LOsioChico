@@ -58,13 +58,13 @@
 <br>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-600%20hrs%2015%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-600%20hrs%2018%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-292.9%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 75.9 kB Used in GitHub's Storage 
+> 📦 72.6 kB Used in GitHub's Storage 
  > 
 > 🏆 809 Contributions in the Year 2023
  > 
@@ -99,8 +99,8 @@ Sunday                   195 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-JavaScript               9 hrs 45 mins       ██████████████████████░░░   88.84 % 
-TypeScript               38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.82 % 
+JavaScript               9 hrs 45 mins       ██████████████████████░░░   88.91 % 
+TypeScript               38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.79 % 
 YAML                     9 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.38 % 
 Bash                     8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.26 % 
 Other                    7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.20 % 
@@ -117,7 +117,7 @@ CSS                      3 repos             ████░░░░░░░�
 
 
 
- Last Updated on 01/08/2023 00:56:26 UTC
+ Last Updated on 02/08/2023 00:50:18 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
