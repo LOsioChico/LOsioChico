@@ -58,13 +58,13 @@
 <br>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-697%20hrs%2021%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-697%20hrs%2023%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-466.8%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 121.9 kB Used in GitHub's Storage 
+> 📦 118.6 kB Used in GitHub's Storage 
  > 
 > 🏆 958 Contributions in the Year 2023
  > 
@@ -99,11 +99,11 @@ Sunday                   204 commits         █░░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               7 hrs 37 mins       ██████████████░░░░░░░░░░░   56.61 % 
-JavaScript               3 hrs 21 mins       ██████░░░░░░░░░░░░░░░░░░░   24.97 % 
-JSON                     1 hr 20 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.96 % 
-PowerShell               32 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.00 % 
-CSS                      7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.95 % 
+TypeScript               5 hrs 49 mins       █████████████░░░░░░░░░░░░   52.86 % 
+JavaScript               3 hrs 12 mins       ███████░░░░░░░░░░░░░░░░░░   29.13 % 
+JSON                     44 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.78 % 
+PowerShell               34 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
+Other                    10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.64 % 
 ```
 
 **I Mostly Code in TypeScript** 
@@ -117,7 +117,7 @@ CSS                      4 repos             ████░░░░░░░�
 
 
 
- Last Updated on 08/09/2023 00:43:08 UTC
+ Last Updated on 09/09/2023 00:41:57 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
