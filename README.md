@@ -16,15 +16,13 @@
 <br>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C547%20hrs%2042%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C547%20hrs%2024%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-309.9%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 481.0 kB Used in GitHub's Storage 
- > 
-> 🏆 671 Contributions in the Year 2024
+> 📦 483.3 kB Used in GitHub's Storage 
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -57,11 +55,11 @@ Sunday                   237 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Scala                    6 hrs 43 mins       █████████████████░░░░░░░░   69.73 % 
-JavaScript               52 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.99 % 
-Other                    42 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.36 % 
-Docker                   25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.45 % 
-Batchfile                20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.58 % 
+Scala                    4 hrs 44 mins       █████████████████░░░░░░░░   66.92 % 
+JavaScript               52 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.24 % 
+Docker                   25 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.05 % 
+Batchfile                20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.71 % 
+Markdown                 15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.73 % 
 ```
 
 **I Mostly Code in TypeScript** 
@@ -77,7 +75,7 @@ Go                       2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 04/07/2024 00:52:39 UTC
+ Last Updated on 05/07/2024 00:52:04 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
