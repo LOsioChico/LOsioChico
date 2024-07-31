@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="941" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1024" class="">
     <defs>
         <style/>
     </defs>
@@ -50,7 +50,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>preslavmihaylov/booknotes</span>
-                                        <span>starred 6 days ago</span>
+                                        <span>starred 7 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A collection of my book notes on various subjects, mainly computer science</div>
@@ -156,7 +156,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>pmoskovi/kafka-learning-resources</span>
-                                        <span>starred 8 days ago</span>
+                                        <span>starred 9 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A curated list of Apache Kafka learning resources</div>
@@ -370,6 +370,46 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                                        Pushed 6 commits in
+                                        <span class="repo">LOsioChico/scraper</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#42d5439</div>
+                                        <div class="message">refactor: Update logger formatting for different log levels</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#cb662a5</div>
+                                        <div class="message">refactor: Improve logger formatting for different log levels</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#8d6163f</div>
+                                        <div class="message">refactor: Remove askConfig file</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3581567</div>
+                                        <div class="message">refactor: Update dependencies and configuration files</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#a769340</div>
+                                        <div class="message">refactor: Remove unnecesary image name</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d26e6c0</div>
+                                        <div class="message">refactor: Update .dockerignore and .gitignore</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                                         Pushed 1 commit in
                                         <span class="repo">LOsioChico/LOsioChico</span>
                                     </div>
@@ -474,26 +514,6 @@
                                     <div class="commit">
                                         <div class="sha">#ee11219</div>
                                         <div class="message">feat: Add recursive solution for Two Sum in Scala</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">LOsioChico/dsa-preparation</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#d09b0af</div>
-                                        <div class="message">style: Update maxColumn to 120 in .scalafmt.conf</div>
                                     </div>
                                 </div>
                             </section>
