@@ -16,11 +16,13 @@
 <br>
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C840%20hrs%2010%20mins-blue)
+
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-354.9%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 605.2 kB Used in GitHub's Storage 
+> 📦 600.5 kB Used in GitHub's Storage 
  > 
 > 🏆 1,504 Contributions in the Year 2024
  > 
@@ -75,7 +77,7 @@ Astro                    2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 10/11/2024 01:04:10 UTC
+ Last Updated on 11/11/2024 01:01:50 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
