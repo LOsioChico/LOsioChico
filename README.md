@@ -16,13 +16,13 @@
 <br>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C874%20hrs%2045%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C880%20hrs%2032%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-358.7%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 611.4 kB Used in GitHub's Storage 
+> 📦 607.0 kB Used in GitHub's Storage 
  > 
 > 🏆 1,533 Contributions in the Year 2024
  > 
@@ -58,7 +58,7 @@ Sunday                   373 commits         ██░░░░░░░░░�
 ```text
 💬 Programming Languages: 
 Scala                    18 hrs 14 mins      ███████████████████████░░   91.08 % 
-Other                    1 hr 7 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.60 % 
+Other                    1 hr 7 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.61 % 
 TypeScript               15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.33 % 
 JSON                     8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.74 % 
 XML                      5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.43 % 
@@ -77,7 +77,7 @@ Java                     2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 23/11/2024 01:03:39 UTC
+ Last Updated on 24/11/2024 01:08:29 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
