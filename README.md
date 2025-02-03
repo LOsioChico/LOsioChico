@@ -16,13 +16,13 @@
 <br>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C996%20hrs%202%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C997%20hrs%203%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-387.6%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 639.9 kB Used in GitHub's Storage 
+> 📦 641.7 kB Used in GitHub's Storage 
  > 
 > 🏆 11 Contributions in the Year 2025
  > 
@@ -57,8 +57,8 @@ Sunday                   403 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Python                   10 hrs 22 mins      █████████████████░░░░░░░░   67.64 % 
-Scala                    4 hrs 54 mins       ████████░░░░░░░░░░░░░░░░░   31.94 % 
+Python                   10 hrs 22 mins      █████████████████░░░░░░░░   68.30 % 
+Scala                    4 hrs 45 mins       ████████░░░░░░░░░░░░░░░░░   31.28 % 
 PowerShell               1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.16 % 
 Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
 Markdown                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
@@ -77,7 +77,7 @@ Java                     2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 02/02/2025 01:03:42 UTC
+ Last Updated on 03/02/2025 01:01:47 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
