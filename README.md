@@ -16,11 +16,13 @@
 <br>
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C018%20hrs%2010%20mins-blue)
+
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-387.6%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 652.1 kB Used in GitHub's Storage 
+> 📦 652.6 kB Used in GitHub's Storage 
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -73,7 +75,7 @@ Java                     2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 16/02/2025 01:06:13 UTC
+ Last Updated on 17/02/2025 01:03:52 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
