@@ -16,13 +16,13 @@
 <br>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C027%20hrs%2046%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C027%20hrs%2044%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-387.6%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 665.8 kB Used in GitHub's Storage 
+> 📦 654.2 kB Used in GitHub's Storage 
  > 
 > 🏆 11 Contributions in the Year 2025
  > 
@@ -57,9 +57,9 @@ Sunday                   403 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Scala                    8 hrs 6 mins        █████████████████████░░░░   84.89 % 
-Markdown                 1 hr 18 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.73 % 
-Other                    7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.39 % 
+Scala                    8 hrs 6 mins        █████████████████████░░░░   84.58 % 
+Markdown                 1 hr 18 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.68 % 
+Other                    10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.74 % 
 ```
 
 **I Mostly Code in TypeScript** 
@@ -75,7 +75,7 @@ Java                     2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 24/02/2025 01:03:53 UTC
+ Last Updated on 25/02/2025 01:03:13 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
