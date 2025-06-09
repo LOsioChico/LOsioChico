@@ -16,13 +16,13 @@
 <br>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C227%20hrs%2017%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C231%20hrs%209%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-421.3%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 691.1 kB Used in GitHub's Storage 
+> 📦 692.6 kB Used in GitHub's Storage 
  > 
 > 🏆 127 Contributions in the Year 2025
  > 
@@ -57,11 +57,11 @@ Sunday                   417 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Astro                    10 hrs 44 mins      ██████████░░░░░░░░░░░░░░░   38.24 % 
-TypeScript               8 hrs 40 mins       ████████░░░░░░░░░░░░░░░░░   30.89 % 
-JSON                     2 hrs 47 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.94 % 
-Markdown                 1 hr 34 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.59 % 
-Java                     1 hr 18 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.69 % 
+Astro                    10 hrs 31 mins      ██████████░░░░░░░░░░░░░░░   39.07 % 
+TypeScript               7 hrs 50 mins       ███████░░░░░░░░░░░░░░░░░░   29.09 % 
+JSON                     2 hrs 49 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.48 % 
+Markdown                 1 hr 34 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.85 % 
+Java                     1 hr 14 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.60 % 
 ```
 
 **I Mostly Code in TypeScript** 
@@ -77,7 +77,7 @@ Astro                    4 repos             ██░░░░░░░░░�
 
 
 
- Last Updated on 08/06/2025 01:18:11 UTC
+ Last Updated on 09/06/2025 01:15:38 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
