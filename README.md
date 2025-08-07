@@ -22,7 +22,9 @@
 
 **🐱 My GitHub Data** 
 
-> 📦 706.5 kB Used in GitHub's Storage 
+> 📦 708.0 kB Used in GitHub's Storage 
+ > 
+> 🏆 276 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -55,7 +57,7 @@ Sunday                   449 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Scala                    4 hrs 14 mins       █████████████████████████   99.99 % 
+Scala                    2 hrs 51 mins       █████████████████████████   99.99 % 
 Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 ```
 
@@ -72,7 +74,7 @@ CSS                      5 repos             ██░░░░░░░░░�
 
 
 
- Last Updated on 06/08/2025 01:19:11 UTC
+ Last Updated on 07/08/2025 01:19:47 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
