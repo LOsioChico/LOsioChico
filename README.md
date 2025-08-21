@@ -16,15 +16,13 @@
 <br>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C324%20hrs%2010%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C325%20hrs%202%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-473.8%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 708.5 kB Used in GitHub's Storage 
- > 
-> 🏆 276 Contributions in the Year 2025
+> 📦 710.0 kB Used in GitHub's Storage 
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -57,7 +55,7 @@ Sunday                   449 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Scala                    1 hr 27 mins        █████████████████████████   100.00 % 
+Scala                    1 hr 33 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in TypeScript** 
@@ -73,7 +71,7 @@ CSS                      5 repos             ██░░░░░░░░░�
 
 
 
- Last Updated on 20/08/2025 01:08:55 UTC
+ Last Updated on 21/08/2025 01:07:39 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
