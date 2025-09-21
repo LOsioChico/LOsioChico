@@ -16,15 +16,15 @@
 <br>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C376%20hrs%2022%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C377%20hrs%2027%20mins-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-484.9%20thousand%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-485.1%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 711.5 kB Used in GitHub's Storage 
+> 📦 713.0 kB Used in GitHub's Storage 
  > 
-> 🏆 337 Contributions in the Year 2025
+> 🏆 338 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -32,6 +32,38 @@
  > 
 > 🔑 36 Private Repositories 
  > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                739 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.33 % 
+🌆 Daytime                1543 commits        ████████░░░░░░░░░░░░░░░░░   32.00 % 
+🌃 Evening                1641 commits        █████████░░░░░░░░░░░░░░░░   34.03 % 
+🌙 Night                  899 commits         █████░░░░░░░░░░░░░░░░░░░░   18.64 % 
+```
+📅 **I'm Most Productive on Thursday** 
+
+```text
+Monday                   615 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.75 % 
+Tuesday                  733 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.20 % 
+Wednesday                586 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.15 % 
+Thursday                 924 commits         █████░░░░░░░░░░░░░░░░░░░░   19.16 % 
+Friday                   746 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.47 % 
+Saturday                 769 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.95 % 
+Sunday                   449 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.31 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+💬 Programming Languages: 
+TypeScript               8 hrs 13 mins       █████████████░░░░░░░░░░░░   51.79 % 
+Scala                    4 hrs 6 mins        ██████░░░░░░░░░░░░░░░░░░░   25.84 % 
+JavaScript               1 hr 50 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.62 % 
+Markdown                 35 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.69 % 
+JSON                     28 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.02 % 
+```
+
 **I Mostly Code in TypeScript** 
 
 ```text
@@ -45,7 +77,7 @@ CSS                      5 repos             ██░░░░░░░░░�
 
 
 
- Last Updated on 20/09/2025 01:03:12 UTC
+ Last Updated on 21/09/2025 01:11:57 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
