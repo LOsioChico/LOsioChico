@@ -16,13 +16,13 @@
 <br>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C411%20hrs%2020%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C418%20hrs%2056%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-486.9%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 710.9 kB Used in GitHub's Storage 
+> 📦 712.4 kB Used in GitHub's Storage 
  > 
 > 🏆 366 Contributions in the Year 2025
  > 
@@ -57,11 +57,11 @@ Sunday                   451 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Python                   8 hrs 32 mins       █████████████░░░░░░░░░░░░   51.60 % 
-TypeScript               2 hrs 47 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.89 % 
-HTML                     2 hrs 11 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.26 % 
-Markdown                 58 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-XML                      39 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.96 % 
+Python                   8 hrs 8 mins        ███████████░░░░░░░░░░░░░░   45.23 % 
+TypeScript               2 hrs 17 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.75 % 
+HTML                     2 hrs 11 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.21 % 
+Scala                    2 hrs 8 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.91 % 
+Markdown                 44 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.08 % 
 ```
 
 **I Mostly Code in TypeScript** 
@@ -77,7 +77,7 @@ Jupyter Notebook         1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 07/10/2025 01:05:29 UTC
+ Last Updated on 08/10/2025 01:05:23 UTC
 <!--END_SECTION:waka-->
 
 ## </details>
