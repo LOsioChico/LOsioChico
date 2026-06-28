@@ -4,7 +4,7 @@
 
 # My GitHub Stats 📈
 
-| ![](./assets/metrics.svg) | ![](./assets/metrics2.svg) |
+| ![](https://raw.githubusercontent.com/LOsioChico/LOsioChico/metrics-assets/assets/metrics.svg) | ![](https://raw.githubusercontent.com/LOsioChico/LOsioChico/metrics-assets/assets/metrics2.svg) |
 | ------------------------- | -------------------------- |
 
 ---

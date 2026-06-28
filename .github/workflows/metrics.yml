@@ -22,6 +22,7 @@ jobs:
           filename: assets/metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: metrics-assets
           base: 'header, activity, repositories'
           plugin_lines: yes
           plugin_isocalendar: yes
@@ -45,6 +46,7 @@ jobs:
           filename: assets/metrics2.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: metrics-assets
           base: ''
           config_timezone: America/Bogota
           config_padding: 10%
