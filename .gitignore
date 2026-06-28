@@ -232,7 +232,9 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/git,linux,macos,windows,node
 
-# Metrics SVGs live on the metrics-assets orphan branch, not main.
+# Metrics & snake SVGs live on the metrics-assets orphan branch, not main.
 # Prevents history bloat from recurring auto-commits.
 assets/metrics.svg
 assets/metrics2.svg
+github-snake.svg
+github-snake-dark.svg

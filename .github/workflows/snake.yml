@@ -1,0 +1,32 @@
+name: Generate Snake
+
+on:
+  schedule:
+    # Runs daily at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Push to metrics-assets branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: metrics-assets
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
