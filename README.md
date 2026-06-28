@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F7B93C&center=true&vCenter=true&random=false&width=600&lines=Software+Engineer;Diving+into+Functional+Programming;TypeScript+%E2%80%A2+Scala+%E2%80%A2+Python;Building+things+that+don't+break" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F7B93C&center=true&vCenter=true&random=false&width=600&lines=Software+Engineer;Functional+Programming+Explorer;TypeScript+%E2%80%A2+Scala+%E2%80%A2+Effect;Building+developer+tooling" alt="Typing SVG" />
   </a>
 </p>
 
@@ -22,11 +22,12 @@
 
 ## 🧑‍💻 About Me
 
-- 🔭 Currently building with **TypeScript**, **Scala**, and **Python**
-- 🌱 Diving deep into **Functional Programming** — pure functions, type systems, and algebraic data types
-- 💬 Ask me about software architecture, type safety, and developer tooling
-- ⚡ Fun fact: I'm most productive on **Fridays** — the data says so 📈
-- 📫 Reach me via GitHub — always happy to talk shop
+- 🇨🇴 Colombian software engineer exploring **functional programming** across two ecosystems — **Scala** (academic) and **TypeScript + Effect** (practical)
+- 🔭 Currently building developer tooling, including an [MCP server](https://github.com/LOsioChico/layout-lint-mcp) that catches visual layout bugs via deterministic DOM analysis
+- 🌱 Studying type systems, algebraic data types, design patterns, and DSA
+- 💻 Full-stack across **React**, **Vue**, **Express**, **NestJS**, and **Astro**
+- 🐤 Early bird — most productive on **Fridays** (the commit data backs this up)
+- 📫 Reach me via GitHub — always happy to talk FP, types, or tooling
 
 ---
 
@@ -35,14 +36,14 @@
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white" alt="Scala" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Effect-231F20?style=for-the-badge&logo=effect&logoColor=white" alt="Effect" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/Vue-42B883?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" alt="Astro" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
 ---
@@ -50,12 +51,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=LOsioChico&show_icons=true&theme=transparent&hide_border=true&count_private=true" alt="GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LOsioChico&layout=compact&theme=transparent&hide_border=true" alt="Top languages" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=LOsioChico&theme=transparent&hide_border=true" alt="GitHub streak stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LOsioChico&layout=compact&theme=transparent&hide_border=true&hide=Python" alt="Top languages" height="165" />
+  <img src="https://streak-stats.demolab.com?user=LOsioChico&theme=transparent&hide_border=true" alt="GitHub streak stats" height="165" />
 </p>
 
 ---
