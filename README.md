@@ -91,7 +91,7 @@
 <br>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-3%2C147%20hrs-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-3%2C148%20hrs%2056%20mins-blue?style=flat)
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-533%20hrs%2050%20mins-blue?style=flat)
 
@@ -134,34 +134,34 @@ Sunday                   1195 commits        ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Markdown                 19 hrs 3 mins       ████████████████░░░░░░░░░   65.87 % 
-TypeScript               4 hrs 32 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.68 % 
-JavaScript               1 hr 30 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.24 % 
-Vue                      1 hr 15 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.36 % 
-Other                    43 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.51 % 
+Markdown                 15 hrs 23 mins      ████████████████░░░░░░░░░   62.35 % 
+TypeScript               4 hrs 20 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.59 % 
+JavaScript               1 hr 18 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.27 % 
+Vue                      1 hr 12 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.92 % 
+Other                    43 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.91 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 14 hrs 13 mins (49.15%)
+⏱ AI Coding Time: 8 hrs 51 mins (35.86%)
 
-✍️ 4,507 lines written by AI, 2,846 lines written by hand (61.29% AI-written)
+✍️ 2,497 lines written by AI, 3,168 lines written by hand (44.08% AI-written)
 
-🔤 171,464,230 Input Tokens, 461,148 Output Tokens
+🔤 119,922,137 Input Tokens, 301,349 Output Tokens
 
-💵 $521.31 Estimated AI Cost This Week
+💵 $441.01 Estimated AI Cost This Week
 
-🧠 1626 AI Sessions, 45 AI Prompts
+🧠 1165 AI Sessions, 27 AI Prompts
 
-OMP                      4,507 lines         █████████████████████████   100.00 % 
+OMP                      3,017 lines         █████████████████████████   100.00 % 
 Glm                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-⚖️ Balanced with AI — 61.29% of written lines came from AI
-📝 Concise Prompter — average 50 characters per prompt
+⚖️ Balanced with AI — 44.08% of written lines came from AI
+📝 Concise Prompter — average 56 characters per prompt
 🎯 One-Shot Prompter — average 0 prompts per session
-🔍 Hands-On Reviewer — 50.12% of changed lines were hand-edited
+🔍 Hands-On Reviewer — 66.05% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
@@ -177,7 +177,7 @@ MDX                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 10/08/2026 01:22:15 UTC
+ Last Updated on 11/08/2026 01:22:00 UTC
 <!--END_SECTION:waka-->
 
 </details>
