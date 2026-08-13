@@ -1,5 +1,6 @@
-<h1 align="center">Hi 👋, I'm Luis Osio Chico</h1>
-<h3 align="center">Full Stack & Cloud Engineer · Colombia 🇨🇴</h3>
+<h1 align="center">Hi, I'm Luis Osio Chico</h1>
+<h3 align="center">Software Engineer · Backend · TypeScript · NestJS</h3>
+<h5 align="center">Colombia -> Remote / LATAM / US time zones</h5>
 
 <p align="center">
   <a href="mailto:osiochico@gmail.com">
@@ -8,8 +9,8 @@
   <a href="https://linkedin.com/in/losiochico">
     <img src="https://img.shields.io/badge/LinkedIn-losiochico-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/LOsioChico?tab=followers">
-    <img src="https://img.shields.io/github/followers/LOsioChico?label=Followers&style=social" alt="GitHub followers" />
+  <a href="https://losiochico.github.io/knowledge-base/">
+    <img src="https://img.shields.io/badge/Portfolio-knowledge--base-FF6B35?style=flat-square&logo=astro&logoColor=white" alt="Portfolio" />
   </a>
 </p>
 
@@ -17,41 +18,52 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F7B93C&center=true&vCenter=true&random=false&width=620&lines=Full+Stack+%26+Cloud+Engineer;TypeScript+%E2%80%A2+Scala+%E2%80%A2+AWS;Serverless+with+SST+v3+%26+Lambda;Building+Pentica+%E2%80%94+tax+compliance+SaaS" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F7B93C&center=true&vCenter=true&random=false&width=620&lines=Backend+Engineer+%7C+TypeScript+%26+NestJS;AWS+Serverless+%7C+SST+v3+%26+Lambda;Functional+Programming+%7C+Scala+%26+Effect-TS;Building+tools+for+developers" alt="Typing SVG" />
   </a>
 </p>
 
 ---
 
-## 🧑‍💻 About Me
+## About
 
-- 🇨🇴 Full Stack & Cloud Engineer based in Colombia, currently at **TXEN Colombia** building **Pentica** — a B2B SaaS platform automating municipal tax compliance across Colombia's 1,103 municipalities
-- ☁️ Serverless-first on **AWS** with SST v3 — Lambda, RDS, S3, CloudFront, Cognito, EventBridge
-- ⚡ Shipped a 12-hour emergency disaster recovery (RDS snapshot, 34 GB S3 sync, Route 53 DNS, ACM SSL) and optimized critical endpoints from 5–8s down to under 200ms
-- 🧩 Full-stack across **Nuxt 3** / **React** / **Vue** on the frontend, **Node.js + Hono + TypeORM** and **Scala** on the backend
-- 🌱 Exploring **functional programming** — Scala (academic) and TypeScript + Effect (practical)
-- 🔧 Side projects include an [MCP server](https://github.com/LOsioChico/layout-lint-mcp) that catches visual layout bugs via deterministic DOM analysis
-- 📫 Reach me at **osiochico@gmail.com** or on [LinkedIn](https://linkedin.com/in/losiochico)
+Backend engineer with 2.5+ years building production systems in TypeScript, Node.js, and AWS serverless. Currently specializing in **NestJS** and deepening system design knowledge for mid/senior backend roles.
+
+- Previously at **TXEN** / **We4Labs**: core engineer on a B2B SaaS tax compliance platform serving 1,103 Colombian municipalities. Shipped on AWS serverless (SST v3, Lambda, RDS, S3, CloudFront, Cognito, EventBridge).
+- Before that at **Nord Tech**: promoted from Junior to Software Engineer in under a year. Worked on a real-time reservation platform (Scala, Kafka) and migrated a fintech codebase (100+ endpoints).
+- Passionate about **functional programming** (Scala academic, TypeScript + Effect-TS practical) and clean architecture (DI, modules, decorators: the NestJS way).
 
 ---
 
-## 🛠️ Tech Stack
+## Currently
+
+- Building a **restaurant order management SaaS** (freelance, independent client)
+- Specializing in **NestJS**: DI internals, module system, decorators, middleware pipeline
+- Studying **system design** and **DSA** across 10 platforms for interview prep
+- Exploring **AI engineering in TypeScript**: RAG, embeddings, vector databases, agent patterns (not switching to Python)
+
+---
+
+## Featured Projects
+
+### [knowledge-base](https://github.com/LOsioChico/knowledge-base) -> [Live site](https://losiochico.github.io/knowledge-base/)
+Interactive technical reference covering **system design** and **Effect-TS** patterns. Built with Astro/Starlight. Includes interactive components like a consistent hashing ring visualizer and code walkthroughs. Deployed via GitHub Pages.
+
+### [colombian-working-days-api](https://github.com/LOsioChico/colombian-working-days-api)
+A Cloudflare Workers API for Colombian business day calculations. Written in **functional TypeScript**: pure functions, recursion over loops, composable predicates. Built as a technical assessment. No external dependencies.
+
+### [layout-lint-mcp](https://github.com/LOsioChico/layout-lint-mcp)
+An MCP (Model Context Protocol) server that catches visual layout bugs via deterministic DOM analysis: overflow, spacing, typography, touch targets, and responsive regressions. TypeScript, MIT licensed.
+
+---
+
+## Tech Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white" alt="Scala" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white" alt="Hono" />
   <img src="https://img.shields.io/badge/TypeORM-262627?style=for-the-badge&logo=typeorm&logoColor=white" alt="TypeORM" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Vue-42B883?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue" />
-  <img src="https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white" alt="Nuxt" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
 </p>
 
 <p align="center">
@@ -59,22 +71,28 @@
   <img src="https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=black" alt="Lambda" />
   <img src="https://img.shields.io/badge/SST_v3-231F20?style=for-the-badge&logo=serverless&logoColor=white" alt="SST v3" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white" alt="Scala" />
+  <img src="https://img.shields.io/badge/Effect--TS-000000?style=for-the-badge&logo=effect&logoColor=white" alt="Effect-TS" />
 </p>
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LOsioChico&layout=compact&theme=transparent&hide_border=true&hide=Python,CSS" alt="Top languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LOsioChico&layout=compact&theme=transparent&hide_border=true&hide=Python,CSS,HTML,TSQL" alt="Top languages" height="165" />
   <img src="https://streak-stats.demolab.com?user=LOsioChico&theme=transparent&hide_border=true" alt="GitHub streak stats" height="165" />
 </p>
 
 ---
 
-## 🐍 Contribution Snake
+## Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LOsioChico/LOsioChico/metrics-assets/github-snake-dark.svg" />
@@ -84,106 +102,8 @@
 
 ---
 
-## ⏱️ WakaTime Stats
-
-<details>
-<summary>Click to expand ↩️</summary>
-<br>
-
-<!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-3%2C151%20hrs%2017%20mins-blue?style=flat)
-
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-533%20hrs%2050%20mins-blue?style=flat)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-15.65%20million%20lines%20of%20code-blue?style=flat)
-
-**🐱 My GitHub Data** 
-
-> 📦 258.1 kB Used in GitHub's Storage 
- > 
-> 🏆 4,030 Contributions in the Year 2026
- > 
-> 💼 Opted to Hire
- > 
-> 📜 40 Public Repositories 
- > 
-> 🔑 47 Private Repositories 
- > 
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                2246 commits        █████░░░░░░░░░░░░░░░░░░░░   18.57 % 
-🌆 Daytime                5056 commits        ██████████░░░░░░░░░░░░░░░   41.81 % 
-🌃 Evening                3134 commits        ██████░░░░░░░░░░░░░░░░░░░   25.92 % 
-🌙 Night                  1656 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.70 % 
-```
-📅 **I'm Most Productive on Friday** 
-
-```text
-Monday                   1659 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.72 % 
-Tuesday                  1826 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.10 % 
-Wednesday                1855 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.34 % 
-Thursday                 1866 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.43 % 
-Friday                   2108 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.43 % 
-Saturday                 1568 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.97 % 
-Sunday                   1210 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.01 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-Markdown                 12 hrs 6 mins       ██████████████████░░░░░░░   73.58 % 
-TypeScript               2 hrs 30 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.22 % 
-JavaScript               51 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.23 % 
-Python                   18 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.88 % 
-JSON                     11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.19 % 
-```
-
-🤖 **AI Coding This Week** 
-
-```text
-⏱ AI Coding Time: 2 hrs 26 mins (14.82%)
-
-✍️ 713 lines written by AI, 2,583 lines written by hand (21.63% AI-written)
-
-🔤 27,116,071 Input Tokens, 64,202 Output Tokens
-
-💵 $311.71 Estimated AI Cost This Week
-
-🧠 257 AI Sessions, 5 AI Prompts
-
-OMP                      1,702 lines         █████████████████████████   100.00 % 
-Glm                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-
-🔎 AI Coding Insights:
-🧑‍💻 Mostly Hands-On — 21.63% of written lines came from AI
-📝 Concise Prompter — average 66 characters per prompt
-🎯 One-Shot Prompter — average 0 prompts per session
-🔍 Hands-On Reviewer — 83.74% of changed lines were hand-edited
-```
-
-**I Mostly Code in TypeScript** 
-
-```text
-TypeScript               50 repos            ███████████████░░░░░░░░░░   58.82 % 
-JavaScript               11 repos            ███░░░░░░░░░░░░░░░░░░░░░░   12.94 % 
-Python                   4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.71 % 
-Astro                    3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.53 % 
-MDX                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.18 % 
-```
-
-
-
-
- Last Updated on 13/08/2026 01:29:59 UTC
-<!--END_SECTION:waka-->
-
-</details>
-
----
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=LOsioChico&label=Profile%20Views&color=F7B93C&style=flat-square" alt="Profile views" />
+  <a href="mailto:osiochico@gmail.com">osiochico@gmail.com</a> &nbsp;|&nbsp;
+  <a href="https://linkedin.com/in/losiochico">LinkedIn</a> &nbsp;|&nbsp;
+  <a href="https://losiochico.github.io/knowledge-base/">Portfolio</a>
 </p>
