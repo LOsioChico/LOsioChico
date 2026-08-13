@@ -9,9 +9,6 @@
   <a href="https://linkedin.com/in/losiochico">
     <img src="https://img.shields.io/badge/LinkedIn-losiochico-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://losiochico.github.io/knowledge-base/">
-    <img src="https://img.shields.io/badge/Portfolio-knowledge--base-FF6B35?style=flat-square&logo=astro&logoColor=white" alt="Portfolio" />
-  </a>
 </p>
 
 ---
@@ -40,19 +37,6 @@ Backend engineer with 2.5+ years building production systems in TypeScript, Node
 - Specializing in **NestJS**: DI internals, module system, decorators, middleware pipeline
 - Studying **system design** and **DSA** across 10 platforms for interview prep
 - Exploring **AI engineering in TypeScript**: RAG, embeddings, vector databases, agent patterns (not switching to Python)
-
----
-
-## Featured Projects
-
-### [knowledge-base](https://github.com/LOsioChico/knowledge-base) -> [Live site](https://losiochico.github.io/knowledge-base/)
-Interactive technical reference covering **system design** and **Effect-TS** patterns. Built with Astro/Starlight. Includes interactive components like a consistent hashing ring visualizer and code walkthroughs. Deployed via GitHub Pages.
-
-### [colombian-working-days-api](https://github.com/LOsioChico/colombian-working-days-api)
-A Cloudflare Workers API for Colombian business day calculations. Written in **functional TypeScript**: pure functions, recursion over loops, composable predicates. Built as a technical assessment. No external dependencies.
-
-### [layout-lint-mcp](https://github.com/LOsioChico/layout-lint-mcp)
-An MCP (Model Context Protocol) server that catches visual layout bugs via deterministic DOM analysis: overflow, spacing, typography, touch targets, and responsive regressions. TypeScript, MIT licensed.
 
 ---
 
@@ -104,6 +88,5 @@ An MCP (Model Context Protocol) server that catches visual layout bugs via deter
 
 <p align="center">
   <a href="mailto:osiochico@gmail.com">osiochico@gmail.com</a> &nbsp;|&nbsp;
-  <a href="https://linkedin.com/in/losiochico">LinkedIn</a> &nbsp;|&nbsp;
-  <a href="https://losiochico.github.io/knowledge-base/">Portfolio</a>
+  <a href="https://linkedin.com/in/losiochico">LinkedIn</a>
 </p>
