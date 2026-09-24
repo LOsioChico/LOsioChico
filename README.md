@@ -67,8 +67,8 @@ _Every number above is on the CV. Happy to walk through any of them in an interv
 ## stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,react,nodejs,nestjs,express,postgres,aws,cloudflare,docker,bun,astro,scala,kafka,redis&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=ts,react,nodejs,nestjs,express,postgres,aws,cloudflare,docker,bun,astro,scala,kafka,redis&theme=light" alt="TypeScript, React, Node.js, NestJS, Express, PostgreSQL, AWS, Cloudflare, Docker, Bun, Astro, Scala, Kafka, Redis" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Creact%2Cnodejs%2Cnestjs%2Cexpress%2Cpostgres%2Caws%2Ccloudflare%2Cdocker%2Cbun%2Castro%2Cscala%2Ckafka%2Credis&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=ts%2Creact%2Cnodejs%2Cnestjs%2Cexpress%2Cpostgres%2Caws%2Ccloudflare%2Cdocker%2Cbun%2Castro%2Cscala%2Ckafka%2Credis&theme=light" alt="TypeScript, React, Node.js, NestJS, Express, PostgreSQL, AWS, Cloudflare, Docker, Bun, Astro, Scala, Kafka, Redis" />
 </picture>
 
 ## how i work
