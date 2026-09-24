@@ -3,7 +3,7 @@
 # Luis Osio Chico
 
 **Full-stack engineer, backend-leaning** · TypeScript · React · Node.js (Express, NestJS) · AWS · PostgreSQL
-Colombia (UTC-5) · almost 3 years in production systems · open to remote
+Colombia (UTC-5) · in production systems since 2024 · open to remote
 
 I build web products end to end: the screens people touch and the systems underneath.
 
@@ -49,7 +49,7 @@ _Every number above is on the CV. Happy to walk through any of them in an interv
 
 ## track record
 
-- **TXEN / We4Labs** · software engineer, ~2 years. Core engineer on a B2B tax compliance platform covering all 1,103 Colombian municipalities. Took a hot endpoint from ~8s to ~150ms, built a 19-phase ETL over 118k+ legacy records, migrated staging + prod to AWS in 12h with zero data loss.
+- **TXEN / We4Labs** · software engineer, dec 2025 – aug 2026. Core engineer on a B2B tax compliance platform covering all 1,103 Colombian municipalities. Took a hot endpoint from ~8s to ~150ms, built a 19-phase ETL over 118k+ legacy records, migrated staging + prod to AWS in 12h with zero data loss.
 - **Nord Tech** · junior to software engineer in under a year. Real-time reservation platform (Scala, Kafka, WebSockets); migrated a 100+ endpoint fintech codebase off a legacy ORM.
 
 ## now
