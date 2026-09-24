@@ -7,14 +7,20 @@
 
   <clipPath id="type">
     <rect x="24" y="48" width="0" height="26">
-      <animate attributeName="width" values="0;40;80;120;160;200;240;280;320;370;410;440" keyTimes="0;0.09;0.18;0.27;0.36;0.45;0.55;0.64;0.73;0.82;0.91;1" dur="1.6s" begin="0.7s" fill="freeze" calcMode="discrete"/>
+      <animate attributeName="width" values="0.0;8.4;16.8;25.3;33.7;42.1;50.5;58.9;67.4;75.8;84.2;92.6;101.0;109.5;117.9;126.3;134.7;143.1;151.6;160.0;168.4;176.8;185.2;193.7;202.1;210.5;218.9;227.3;235.8;244.2;252.6;261.0;269.4;277.9;286.3;294.7;303.1;311.5;320.0;328.4;336.8;345.2;353.6;362.1;370.5;378.9;387.3;395.7;404.2" keyTimes="0.000;0.017;0.063;0.108;0.125;0.143;0.160;0.177;0.222;0.240;0.257;0.274;0.292;0.309;0.327;0.372;0.417;0.434;0.452;0.469;0.486;0.504;0.521;0.538;0.556;0.573;0.590;0.608;0.625;0.643;0.660;0.677;0.695;0.712;0.729;0.747;0.764;0.781;0.799;0.816;0.833;0.851;0.868;0.885;0.903;0.920;0.937;0.983;1.000" dur="1.61s" begin="0.6s" fill="freeze" calcMode="discrete"/>
     </rect>
   </clipPath>
   <text x="24" y="68" font-size="14" clip-path="url(#type)"><tspan fill="#e8895a">$</tspan><tspan fill="#efe9da"> curl https://mdingest.knightker.workers.dev/v1</tspan></text>
 
-  <text x="24" y="100" font-size="14" fill="#efe9da" opacity="0"><set attributeName="opacity" to="1" begin="2.3s"/>{"name":"mdingest","version":"v1","endpoints":{...}}</text>
-  <text x="24" y="128" font-size="14" fill="#7fb069" opacity="0"><set attributeName="opacity" to="1" begin="2.8s"/>200 OK · 3 providers · live on cloudflare workers</text>
-  <text x="24" y="156" font-size="14" fill="#9c937e" opacity="0"><set attributeName="opacity" to="1" begin="3.3s"/># try it: real api, real markdown out</text>
+  <rect y="54" width="9" height="17" fill="#e8895a" opacity="0">
+    <set attributeName="opacity" to="1" begin="0.6s"/>
+    <animate attributeName="x" values="24.0;32.4;40.8;49.3;57.7;66.1;74.5;82.9;91.4;99.8;108.2;116.6;125.0;133.5;141.9;150.3;158.7;167.1;175.6;184.0;192.4;200.8;209.2;217.7;226.1;234.5;242.9;251.3;259.8;268.2;276.6;285.0;293.4;301.9;310.3;318.7;327.1;335.5;344.0;352.4;360.8;369.2;377.6;386.1;394.5;402.9;411.3;419.7;428.2" keyTimes="0.000;0.017;0.063;0.108;0.125;0.143;0.160;0.177;0.222;0.240;0.257;0.274;0.292;0.309;0.327;0.372;0.417;0.434;0.452;0.469;0.486;0.504;0.521;0.538;0.556;0.573;0.590;0.608;0.625;0.643;0.660;0.677;0.695;0.712;0.729;0.747;0.764;0.781;0.799;0.816;0.833;0.851;0.868;0.885;0.903;0.920;0.937;0.983;1.000" dur="1.61s" begin="0.6s" fill="freeze" calcMode="discrete"/>
+    <set attributeName="opacity" to="0" begin="2.564000000000001s"/>
+  </rect>
 
-  <text x="24" y="192" font-size="14"><tspan fill="#e8895a">$</tspan><tspan fill="#efe9da"> </tspan><tspan fill="#e8895a" opacity="0">&#9612;<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1.1s" begin="3.8s" repeatCount="indefinite"/></tspan></text>
+  <text x="24" y="100" font-size="14" fill="#efe9da" opacity="0"><set attributeName="opacity" to="1" begin="2.564000000000001s"/>{"name":"mdingest","version":"v1","endpoints":{...}}</text>
+  <text x="24" y="128" font-size="14" fill="#7fb069" opacity="0"><set attributeName="opacity" to="1" begin="2.964000000000001s"/>200 OK · 3 providers · live on cloudflare workers</text>
+  <text x="24" y="156" font-size="14" fill="#9c937e" opacity="0"><set attributeName="opacity" to="1" begin="3.3640000000000008s"/># try it: real api, real markdown out</text>
+
+  <text x="24" y="192" font-size="14" opacity="0"><set attributeName="opacity" to="1" begin="3.814000000000001s"/><tspan fill="#e8895a">$ </tspan><tspan fill="#e8895a">&#9612;<animate attributeName="opacity" values="1;0" dur="1.06s" begin="3.814000000000001s" repeatCount="indefinite"/></tspan></text>
 </svg>
