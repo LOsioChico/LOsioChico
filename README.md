@@ -61,7 +61,7 @@ _Every number above is on the CV. Happy to walk through any of them in an interv
 <!-- now:start -->
 > _auto-updated daily by CI_
 >
-> mdingest api: **v1 · live** · last public push: **[LOsioChico](https://github.com/LOsioChico/LOsioChico)** · pulse 2026-09-24
+> mdingest api: **v1 · live** · last public push: **[LOsioChico](https://github.com/LOsioChico/LOsioChico)** · pulse 2026-09-25
 <!-- now:end -->
 
 ## stack
