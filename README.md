@@ -31,7 +31,6 @@ _real response, truncated. That's a live API I built and run. It ingests article
 | | what it does | status |
 |---|---|---|
 | [**mdingest**](https://github.com/LOsioChico/mdingest) | articles to clean Markdown for LLMs. Cloudflare Workers, four interfaces on one core (REST, CLI, web, MCP). | [![mdingest api](https://img.shields.io/website?url=https%3A%2F%2Fmdingest.knightker.workers.dev%2Fv1&up_message=live&down_message=cold%20start&style=flat-square&label=api&cacheSeconds=300)](https://mdingest.knightker.workers.dev/v1) |
-| [**replication-lag-lab**](https://github.com/LOsioChico/replication-lag-lab) | see Postgres replication lag and read-your-writes consistency happen, hands-on. Docker + pg + TypeORM, with a [written essay](https://github.com/LOsioChico/replication-lag-lab/blob/main/essay.md). | [![last commit](https://img.shields.io/github/last-commit/LOsioChico/replication-lag-lab?style=flat-square&label=updated)](https://github.com/LOsioChico/replication-lag-lab) |
 | [**italki-cli**](https://github.com/LOsioChico/italki-cli) | italki from the terminal: lessons, teachers, scheduling. Ships as a CLI and an MCP server. | [![last commit](https://img.shields.io/github/last-commit/LOsioChico/italki-cli?style=flat-square&label=updated)](https://github.com/LOsioChico/italki-cli) |
 
 ## numbers
@@ -81,4 +80,4 @@ NestJS for structure: DI, modules, clean boundaries. Functional style where it p
   <img alt="contribution snake" src="https://raw.githubusercontent.com/LOsioChico/LOsioChico/metrics-assets/github-snake.svg" />
 </picture>
 
-<sub>[osiochico@gmail.com](mailto:osiochico@gmail.com) · [linkedin](https://linkedin.com/in/losiochico) · es native, en B2</sub>
+<sub>[luisosio.dev](https://luisosio.dev) · [osiochico@gmail.com](mailto:osiochico@gmail.com) · [linkedin](https://linkedin.com/in/losiochico) · es native, en B2</sub>
