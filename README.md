@@ -86,8 +86,8 @@ _Every number above is on the [CV](https://luisosio.dev/cv.pdf). Happy to walk t
 
 ## track record
 
-- **TXEN / We4Labs** · ai engineer, dec 2025 – present. Core engineer on a B2B tax compliance platform covering all 1,103 Colombian municipalities; module + infra work on Doru, the company's AI product (consultation audio → LLM clinical records). Took a hot endpoint from ~8s to ~150ms, built a 19-phase ETL over 118k+ legacy records, migrated staging + prod to AWS in 12h with zero data loss.
-- **Nord Tech** · junior to software engineer in under a year. Real-time reservation platform (Scala, Kafka, WebSockets); migrated a 100+ endpoint fintech codebase off a legacy ORM.
+- **TXEN / We4Labs** · ai engineer, dec 2025 – present. Core engineer on a B2B tax compliance platform covering all 1,103 Colombian municipalities; module + infra work on Doru, the company's AI product (consultation audio → LLM clinical records). Took a hot endpoint from ~8s to ~150ms, built a 19-phase ETL over 118k+ legacy records, migrated staging + prod to AWS in 12h with zero data loss. Stack: typescript/node, python/fastapi, serverless aws.
+- **Nord Tech** · junior to software engineer in under a year. Real-time reservation platform (scala, kafka, websockets, python); migrated a 100+ endpoint fintech codebase off a legacy ORM.
 
 ## now
 
@@ -99,7 +99,7 @@ _Every number above is on the [CV](https://luisosio.dev/cv.pdf). Happy to walk t
 
 > _auto-updated daily by CI_
 >
-> mdingest api: **v1 · live** · last public push: **[LOsioChico](https://github.com/LOsioChico/LOsioChico)** · pulse 2026-10-04
+> mdingest api: **v1 · live** · last public push: **[LOsioChico](https://github.com/LOsioChico/LOsioChico)** · pulse 2026-10-17
 
 <!-- now:end -->
 
