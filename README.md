@@ -96,11 +96,9 @@ _Every number above is on the [CV](https://luisosio.dev/cv.pdf). Happy to walk t
 - open to: ai engineer / backend / full-stack roles · remote · US time zones
 
 <!-- now:start -->
-
 > _auto-updated daily by CI_
 >
-> mdingest api: **v1 · live** · last public push: **[LOsioChico](https://github.com/LOsioChico/LOsioChico)** · pulse 2026-10-17
-
+> mdingest api: **v1 · live** · last public push: **[LOsioChico](https://github.com/LOsioChico/LOsioChico)** · pulse 2026-10-18
 <!-- now:end -->
 
 ## stack
