@@ -3,7 +3,7 @@
 # Luis Osio Chico
 
 **AI engineer · software engineer (backend & full-stack)** · Python · FastAPI · TypeScript · React · Node.js · AWS · PostgreSQL
-Colombia (UTC-5) · in production systems since 2024 · open to remote
+Colombia (UTC-5) · 3+ years in production systems · open to remote
 
 I build AI systems on a production full-stack spine: agents, retrieval, and the eval harnesses that keep them honest.
 
@@ -38,7 +38,7 @@ mdingest ships as an MCP server — paste this into your agent's config and ask 
 }
 ```
 
-Claude Code, Cursor, Devin — anything that speaks MCP gets two tools: `ingest_article` and `list_providers`.
+Devin, Claude Code, Cursor — anything that speaks MCP gets two tools: `ingest_article` and `list_providers`.
 
 ## read me like one too
 
@@ -86,12 +86,12 @@ _Every number above is on the [CV](https://luisosio.dev/cv.pdf). Happy to walk t
 
 ## track record
 
-- **TXEN / We4Labs** · ai engineer, dec 2025 – present. Core engineer on a B2B tax compliance platform covering all 1,103 Colombian municipalities; module + infra work on Doru, the company's AI product (consultation audio → LLM clinical records). Took a hot endpoint from ~8s to ~150ms, built a 19-phase ETL over 118k+ legacy records, migrated staging + prod to AWS in 12h with zero data loss. Stack: typescript/node, python/fastapi, serverless aws.
-- **Nord Tech** · junior to software engineer in under a year. Real-time reservation platform (scala, kafka, websockets, python); migrated a 100+ endpoint fintech codebase off a legacy ORM.
+- **TXEN** · ai engineer, dec 2025 – present. Started as core engineer across Péntica and Simplica (B2B SaaS automating municipal tax compliance across all 1,103 Colombian municipalities) and transitioned into AI Engineer across our B2B SaaS products, including Doru (AI veterinary clinical-records SaaS). Built a hybrid RAG system in Python and FastAPI over municipal tax statutes (`pgvector`, keyword search, reranking, cited answers with abstention, golden dataset evals) and engineered Doru's speech-to-text → LLM structured clinical-record pipeline with Pydantic validation + event-driven reminders. Took a hot endpoint from 5-8s to ~150ms across 14 modules, built a 19-phase PostgreSQL migration across 1,103 municipalities with SQS reverse sync, automated the ICA tax-matrix update email + attachment workflow, and migrated production to a new AWS account in under 12h. Stack: python/fastapi, typescript/node, react, postgresql, serverless aws.
+- **Nord Tech** · junior to software engineer in under a year. Real-time reservation and streaming platform (scala, kafka, websockets); modernized a 100+ endpoint fintech Node.js codebase ahead of AWS Lambda's Node 14 deprecation with zero production incidents; supported two junior developers with task assignment and code reviews.
 
 ## now
 
-- working: ai engineer at TXEN (B2B tax-compliance SaaS, serverless AWS)
+- working: ai engineer at TXEN (B2B SaaS — Python/FastAPI RAG & speech-to-text clinical AI pipelines, TypeScript/AWS)
 - building: python/fastapi AI systems — retrieval + agent eval tooling (repos land as they ship)
 - open to: ai engineer / backend / full-stack roles · remote · US time zones
 
