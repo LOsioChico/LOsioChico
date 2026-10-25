@@ -93,7 +93,7 @@ _Every number above is on the [CV](https://luisosio.dev/cv.pdf). Happy to walk t
 
 - working: ai engineer at TXEN (B2B SaaS — Python/FastAPI RAG & speech-to-text clinical AI pipelines, TypeScript/AWS)
 - building: python/fastapi AI systems — retrieval + agent eval tooling (repos land as they ship)
-- open to: ai engineer / backend / full-stack roles · remote · US time zones
+- open to: ai engineer / backend / full-stack roles · remote · LATAM and US time zones
 
 <!-- now:start -->
 
