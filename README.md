@@ -86,7 +86,7 @@ _Every number above is on the [CV](https://luisosio.dev/cv.pdf). Happy to walk t
 
 ## track record
 
-- **TXEN** · ai engineer, dec 2025 – present. Started as core engineer across Péntica and Simplica (B2B SaaS automating municipal tax compliance across all 1,103 Colombian municipalities) and transitioned into AI Engineer across our B2B SaaS products, including Doru (AI veterinary clinical-records SaaS). Built a hybrid RAG system in Python and FastAPI over municipal tax statutes (`pgvector`, keyword search, reranking, cited answers with abstention, golden dataset evals) and engineered Doru's speech-to-text → LLM structured clinical-record pipeline with Pydantic validation + event-driven reminders. Took a hot endpoint from 5-8s to ~150ms across 14 modules, built a 19-phase PostgreSQL migration across 1,103 municipalities with SQS reverse sync, automated the ICA tax-matrix update email + attachment workflow, and migrated production to a new AWS account in under 12h. Stack: python/fastapi, typescript/node, react, postgresql, serverless aws.
+- **TXEN** · ai engineer, dec 2025 – present. Started as full-stack engineer across Péntica and Simplica (B2B SaaS automating municipal tax compliance across all 1,103 Colombian municipalities) and transitioned into AI Engineer across our B2B SaaS products, including Doru (AI veterinary clinical-records SaaS). Built a hybrid RAG system in Python and FastAPI over municipal tax statutes (`pgvector`, keyword search, reranking, cited answers with abstention, golden dataset evals) and engineered Doru's speech-to-text → LLM structured clinical-record pipeline with Pydantic validation + event-driven reminders. Took a hot endpoint from 5-8s to ~150ms across 14 modules, built a 19-phase PostgreSQL migration across 1,103 municipalities with SQS reverse sync, automated the ICA tax-matrix update email + attachment workflow, and migrated production to a new AWS account in under 12h. Stack: python/fastapi, typescript/node, react, postgresql, serverless aws.
 - **Nord Tech** · junior to software engineer in under a year. Real-time reservation and streaming platform (scala, kafka, websockets); modernized a 100+ endpoint fintech Node.js codebase ahead of AWS Lambda's Node 14 deprecation with zero production incidents; supported two junior developers with task assignment and code reviews.
 
 ## now
@@ -96,9 +96,11 @@ _Every number above is on the [CV](https://luisosio.dev/cv.pdf). Happy to walk t
 - open to: ai engineer / backend / full-stack roles · remote · US time zones
 
 <!-- now:start -->
+
 > _auto-updated daily by CI_
 >
 > mdingest api: **v1 · live** · last public push: **[LOsioChico](https://github.com/LOsioChico/LOsioChico)** · pulse 2026-10-24
+
 <!-- now:end -->
 
 ## stack
