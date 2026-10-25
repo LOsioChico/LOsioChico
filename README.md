@@ -5,7 +5,7 @@
 **AI engineer · software engineer (backend & full-stack)** · Python · FastAPI · TypeScript · React · Node.js · AWS · PostgreSQL
 Colombia (UTC-5) · 3+ years in production systems · open to remote
 
-I build AI systems on a production full-stack spine: agents, retrieval, and the eval harnesses that keep them honest.
+I build AI systems on a production full-stack spine: agents, retrieval, and the guardrails that keep them honest.
 
 ## try this
 
@@ -75,10 +75,10 @@ mcp http ─┘                                            clean markdown + fron
 
 ```text
 ┌──────────────┬──────────────┬──────────────┬──────────────┐
-│  ~150ms      │  1,103       │  <12mo       │  12h         │
-│  hot         │  Colombian   │  junior to   │  AWS prod    │
-│  endpoint,   │  towns live  │  SWE promo   │  migration,  │
-│  was ~8s     │  on platform │              │  zero loss   │
+│  ~150ms      │  1,103       │  <12mo       │  <12h        │
+│  selector    │  Colombian   │  junior to   │  AWS account │
+│  endpoint    │  towns live  │  SWE promo   │  migration   │
+│  (was 5-8s)  │  on platform │              │              │
 └──────────────┴──────────────┴──────────────┴──────────────┘
 ```
 
@@ -86,8 +86,8 @@ _Every number above is on the [CV](https://luisosio.dev/cv.pdf). Happy to walk t
 
 ## track record
 
-- **TXEN** · ai engineer, dec 2025 – present. Started as full-stack engineer across Péntica and Simplica (B2B SaaS automating municipal tax compliance across all 1,103 Colombian municipalities) and transitioned into AI Engineer across our B2B SaaS products, including Doru (AI veterinary clinical-records SaaS). Built a hybrid RAG system in Python and FastAPI over municipal tax statutes (`pgvector`, keyword search, reranking, cited answers with abstention, golden dataset evals) and engineered Doru's speech-to-text → LLM structured clinical-record pipeline with Pydantic validation + event-driven reminders. Took a hot endpoint from 5-8s to ~150ms across 14 modules, built a 19-phase PostgreSQL migration across 1,103 municipalities with SQS reverse sync, automated the ICA tax-matrix update email + attachment workflow, and migrated production to a new AWS account in under 12h. Stack: python/fastapi, typescript/node, react, postgresql, serverless aws.
-- **Nord Tech** · junior to software engineer in under a year. Real-time reservation and streaming platform (scala, kafka, websockets); modernized a 100+ endpoint fintech Node.js codebase ahead of AWS Lambda's Node 14 deprecation with zero production incidents; supported two junior developers with task assignment and code reviews.
+- **TXEN** · ai engineer, dec 2025 – present. Started as full-stack engineer across Péntica and Simplica (B2B SaaS automating municipal tax compliance across all 1,103 Colombian municipalities) and transitioned into AI Engineer across our B2B SaaS products, including Doru (AI veterinary clinical-records SaaS). Built a hybrid RAG system in Python and FastAPI over municipal tax statutes (`pgvector`, keyword search, reranking, cited answers with abstention, validated against the accounting team's golden dataset) and engineered Doru's speech-to-text → LLM structured clinical-record pipeline with Pydantic validation + event-driven reminders. Took a hot endpoint from 5-8s to ~150ms across 14 modules, built a 19-phase PostgreSQL migration across 1,103 municipalities with SQS reverse sync, automated the ICA tax-matrix update email + attachment workflow, and migrated production to a new AWS account in under 12h. Stack: python/fastapi, typescript/node, react, postgresql, serverless aws.
+- **Nord Tech** · junior to software engineer in under a year. Real-time reservation and streaming platform (scala, kafka, websockets); modernized a 100+ endpoint fintech Node.js codebase ahead of AWS Lambda's Node 14 deprecation; supported two junior developers with task assignment and code reviews.
 
 ## now
 
@@ -112,7 +112,7 @@ _Every number above is on the [CV](https://luisosio.dev/cv.pdf). Happy to walk t
 
 ## how i work
 
-Python/FastAPI for AI services: agents, RAG, eval harnesses. TypeScript/Node.js where production history lives. I ship MCP servers — mdingest, italki-cli, and this dossier itself (`POST luisosio.dev/v1/mcp`) — I build AI tooling, not just use it. Verified the boring way: evals, types, tests, receipts. This README updates itself via CI. Proof is in the Actions tab.
+Python/FastAPI for AI services: agents, RAG, guardrails. TypeScript/Node.js where production history lives. I ship MCP servers — mdingest, italki-cli, and this dossier itself (`POST luisosio.dev/v1/mcp`) — I build AI tooling, not just use it. Verified the boring way: types, tests, receipts. This README updates itself via CI. Proof is in the Actions tab.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LOsioChico/LOsioChico/metrics-assets/github-snake-dark.svg" />
