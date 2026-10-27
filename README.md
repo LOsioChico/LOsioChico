@@ -98,7 +98,7 @@ _Every number above is on the [CV](https://luisosio.dev/cv.pdf). Happy to walk t
 <!-- now:start -->
 > _auto-updated daily by CI_
 >
-> mdingest api: **v1 · live** · last public push: **[LOsioChico](https://github.com/LOsioChico/LOsioChico)** · pulse 2026-10-26
+> mdingest api: **v1 · live** · last public push: **[LOsioChico](https://github.com/LOsioChico/LOsioChico)** · pulse 2026-10-27
 <!-- now:end -->
 
 ## stack
