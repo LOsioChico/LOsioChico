@@ -10,30 +10,23 @@ I build AI systems that answer with sources — or don't answer at all.
 
 ```bash
 curl -N "https://luisosio.dev/sr/v1/ask?q=does+ashwagandha+help+sleep"
-```
 
-anatomy of a refusal — real event names, straight off the stream:
-
-```text
-  ┌─ $ curl -N luisosio.dev/sr/v1/ask?q=… ────────────────────────────┐
-  │                                                                 │
-  │  event: screen      intent: evidence · injection 0.0003         │
-  │  event: retrieve    BM25 + dense, RRF ──▶ pack of ~10 PMIDs       │
-  │  event: extract     chunks ─▶ sentences ─▶ candidate quotes       │
-  │  event: claim_stamp 0:PMID  0.42  ─┐                              │
-  │  event: claim_stamp 1:PMID  0.51   ├─ every claim below the       │
-  │  event: claim_stamp 2:PMID  0.38  ─┘   0.7 support bar            │
-  │  event: verdict     score 0.31 ── evidence can't carry a claim    │
-  │                                                                 │
-  │  event: status      ┌──────────────────────────────┐            │
-  │                     │  "status": "abstained"        │            │
-  │                     │  "missing": [what the corpus  │            │
-  │                     │   would need to show first]   │            │
-  │                     └──────────────────────────────┘            │
-  └─────────────────────────────────────────────────────────────────┘
+# the other fork — a question the corpus can carry, cited PMIDs and all:
+curl -N "https://luisosio.dev/sr/v1/ask?q=does+creatine+help+build+muscle"
 ```
 
 the finding behind the design: on 4,026 admitted eval rows, **52% of "covered" questions had no real supporting evidence** — a system that answers whatever it retrieves fabricates on half its input, so this one checks every claim before trusting it. golden + held-out evals are committed; every prod run leaves a public trace at `GET luisosio.dev/sr/v1/run/{rid}`.
+
+```text
+     ┌─ eval admission · noise gets rejected before testing ────┐
+     │  collected                                       5,569   │
+     │  ├─ rejected · no evidence in the corpus         1,543   │
+     │  └─ admitted                                     4,026   │
+     │     ├─ golden · the tuning set                     126   │
+     │     └─ held-out · never tuned                      199   │
+     └──────────────────────────────────────────────────────────┘
+      rejected rows keep their reason in evals/rejected.jsonl
+```
 
 ```text
         question ──▶ gate ──▶ retrieve ──▶ verify, claim by claim
@@ -89,15 +82,15 @@ or skip the curl — the dossier is itself an MCP server:
 
 ```text
 ┌──────────────┬──────────────┬──────────────┬──────────────┐
-│  52%         │  ~150ms      │  1,103       │  <12mo       │
-│  of covered  │  selector    │  Colombian   │  junior to   │
-│  eval rows   │  endpoint    │  towns live  │  SWE promo   │
-│  had no      │  (was 5-8s)  │  on platform │              │
-│  evidence    │              │              │              │
+│  ~$0.0007    │  ~150ms      │  1,103       │  <12mo       │
+│  a fully-    │  selector    │  Colombian   │  junior to   │
+│  traced run  │  endpoint    │  towns live  │  SWE promo   │
+│  costs       │  (was 5-8s)  │  on platform │              │
+│  (61 calls)  │              │              │              │
 └──────────────┴──────────────┴──────────────┴──────────────┘
 ```
 
-_The 52% is measured in the [repo](https://github.com/LOsioChico/supplements-rag); the rest are on the [CV](https://luisosio.dev/cv.pdf). Happy to walk through any of them._
+_The run cost comes from the pipeline's own ledger in the [repo](https://github.com/LOsioChico/supplements-rag); the production numbers are on the [CV](https://luisosio.dev/cv.pdf). Happy to walk through any of them._
 
 ## now
 
