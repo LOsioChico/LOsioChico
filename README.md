@@ -1,44 +1,64 @@
-<img src="assets/banner.svg" width="100%" alt="terminal: curl mdingest api (live)" />
+<img src="assets/banner.svg" width="100%" alt="terminal: a RAG abstains on a question the evidence can't back" />
 
 # Luis Osio Chico
 
-**AI engineer · software engineer (backend & full-stack)** · Python · FastAPI · TypeScript · React · Node.js · AWS · PostgreSQL
-Colombia (UTC-5) · 3+ years in production systems · open to remote
+**AI engineer** · Colombia (UTC-5) · 3+ years in production systems · open to remote
 
-I build AI systems on a production full-stack spine: agents, retrieval, and the guardrails that keep them honest.
+I build AI systems that answer with sources — or don't answer at all.
 
-## try this
+## see it refuse
+
+```bash
+curl -N "https://luisosio.dev/sr/v1/ask?q=does+ashwagandha+help+sleep"
+```
+
+anatomy of a refusal — real event names, straight off the stream:
+
+```text
+  ┌─ $ curl -N luisosio.dev/sr/v1/ask?q=… ────────────────────────────┐
+  │                                                                 │
+  │  event: screen      intent: evidence · injection 0.0003         │
+  │  event: retrieve    BM25 + dense, RRF ──▶ pack of ~10 PMIDs       │
+  │  event: extract     chunks ─▶ sentences ─▶ candidate quotes       │
+  │  event: claim_stamp 0:PMID  0.42  ─┐                              │
+  │  event: claim_stamp 1:PMID  0.51   ├─ every claim below the       │
+  │  event: claim_stamp 2:PMID  0.38  ─┘   0.7 support bar            │
+  │  event: verdict     score 0.31 ── evidence can't carry a claim    │
+  │                                                                 │
+  │  event: status      ┌──────────────────────────────┐            │
+  │                     │  "status": "abstained"        │            │
+  │                     │  "missing": [what the corpus  │            │
+  │                     │   would need to show first]   │            │
+  │                     └──────────────────────────────┘            │
+  └─────────────────────────────────────────────────────────────────┘
+```
+
+the finding behind the design: on 4,026 admitted eval rows, **52% of "covered" questions had no real supporting evidence** — a system that answers whatever it retrieves fabricates on half its input, so this one checks every claim before trusting it. golden + held-out evals are committed; every prod run leaves a public trace at `GET luisosio.dev/sr/v1/run/{rid}`.
+
+```text
+        question ──▶ gate ──▶ retrieve ──▶ verify, claim by claim
+                       │     BM25+dense    every claim needs
+                       │     RRF-fused     its PMID, ≥0.7
+                       │                       │
+        injection · advice · unrelated   ┌────┴────┐
+        ──────────────▶ refuse · decline ▼         ▼
+                                 ┌──────────┐ ┌───────────┐
+                                 │  cited   │ │  abstain  │
+                                 │  answer  │ │ by design │
+                                 └──────────┘ └───────────┘
+```
+
+## systems
+
+| | what it does | status |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**supplements-rag**](https://github.com/LOsioChico/supplements-rag) | evidence-bounded RAG over 17.7k PubMed abstracts — answers with cited PMIDs, or abstains. evals committed; fixes are measured, not vibes. | [![supplements api](https://img.shields.io/website?url=https%3A%2F%2Fluisosio.dev%2Fsr%2Fv1%2Fhealth&up_message=live&down_message=down&style=flat-square&label=api&cacheSeconds=900)](https://luisosio.dev/sr/v1/health) |
+| [**mdingest**](https://github.com/LOsioChico/mdingest) | articles to clean Markdown for LLMs. Cloudflare Workers, four interfaces on one core (REST, CLI, web, MCP). | [![mdingest api](https://img.shields.io/website?url=https%3A%2F%2Fmdingest.knightker.workers.dev%2Fv1&up_message=live&down_message=down&style=flat-square&label=api&cacheSeconds=900)](https://mdingest.knightker.workers.dev/v1) |
+| [**italki-cli**](https://github.com/LOsioChico/italki-cli) | italki from the terminal: lessons, teachers, scheduling. Ships as a CLI and an MCP server. | [![last commit](https://img.shields.io/github/last-commit/LOsioChico/italki-cli?style=flat-square&label=updated)](https://github.com/LOsioChico/italki-cli) |
 
 ```bash
 curl "https://mdingest.knightker.workers.dev/v1/devto?url=<any dev.to article>"
 ```
-
-```markdown
----
-title: 'We All Have a "Serious Work" AI and a "Just Vibing" AI. When Did That Happen?'
-author: 'Dhruv Jani'
-date: '2026-09-22'
-reading_time: '4 min read'
-provider: 'devto'
-tags: ['discuss', 'ai', 'gemini', 'antigravity']
----
-```
-
-_real response, truncated. that's a live API I built and run — it ingests articles and returns clean Markdown for LLM workflows._
-
-## or ask an agent to do it
-
-mdingest ships as an MCP server — paste this into your agent's config and ask it to ingest something:
-
-```json
-{
-  "mcpServers": {
-    "mdingest": { "url": "https://mdingest.knightker.workers.dev/v1/mcp" }
-  }
-}
-```
-
-Devin, Claude Code, Cursor — anything that speaks MCP gets two tools: `ingest_article` and `list_providers`.
 
 ## read me like one too
 
@@ -47,7 +67,6 @@ this dossier is machine-readable end to end — recruiters and agents read the s
 ```bash
 curl luisosio.dev/v1/me.json        # the profile as JSON
 curl luisosio.dev/llms.txt          # curated index for LLMs
-curl luisosio.dev/openapi.json      # OpenAPI 3.1 spec for the above
 curl luisosio.dev/.well-known/ai-catalog.json  # agent-facing capability catalog
 ```
 
@@ -57,42 +76,33 @@ or skip the curl — the dossier is itself an MCP server:
 { "mcpServers": { "luis-osio": { "url": "https://luisosio.dev/v1/mcp" } } }
 ```
 
-## systems
+## writing
 
-|                                                            | what it does                                                                                                | status                                                                                                                                                                                                                            |
-| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**mdingest**](https://github.com/LOsioChico/mdingest)     | articles to clean Markdown for LLMs. Cloudflare Workers, four interfaces on one core (REST, CLI, web, MCP). | [![mdingest api](https://img.shields.io/website?url=https%3A%2F%2Fmdingest.knightker.workers.dev%2Fv1&up_message=live&down_message=down&style=flat-square&label=api&cacheSeconds=900)](https://mdingest.knightker.workers.dev/v1) |
-| [**italki-cli**](https://github.com/LOsioChico/italki-cli) | italki from the terminal: lessons, teachers, scheduling. Ships as a CLI and an MCP server.                  | [![last commit](https://img.shields.io/github/last-commit/LOsioChico/italki-cli?style=flat-square&label=updated)](https://github.com/LOsioChico/italki-cli)                                                                       |
+- [I built a RAG that refuses to answer — and measured when it should](https://dev.to/losiochico1/i-built-a-rag-that-refuses-to-answer-and-measured-when-it-should-1ag) — the eval contract, the 52% finding, and what a rescue pass moved
 
-```text
-rest api ─┐
-cli ──────┼─▶ cloudflare worker ──▶ one core ──▶ dev.to · medium · substack
-mcp stdio ┤   (api + assets)       (in-worker)                    │
-mcp http ─┘                                            clean markdown + frontmatter
-```
+## track record
+
+- **TXEN** · ai engineer, dec 2025 – present. Hybrid RAG in Python/FastAPI over municipal tax statutes (`pgvector`, keyword search, reranking, cited answers with abstention — validated against the accounting team's golden dataset); Doru's speech→structured clinical-record pipeline (Pydantic validation, event-driven reminders). Also the boring production wins: a hot endpoint from 5–8s to ~150ms, a 19-phase PostgreSQL migration across all 1,103 Colombian municipalities, prod moved to a new AWS account in <12h.
+- **Nord Tech** · junior to software engineer in under a year. Real-time reservation/streaming platform (scala, kafka, websockets); modernized a 100+ endpoint fintech codebase ahead of AWS Lambda's Node 14 deprecation.
 
 ## numbers
 
 ```text
 ┌──────────────┬──────────────┬──────────────┬──────────────┐
-│  ~150ms      │  1,103       │  <12mo       │  <12h        │
-│  selector    │  Colombian   │  junior to   │  AWS account │
-│  endpoint    │  towns live  │  SWE promo   │  migration   │
-│  (was 5-8s)  │  on platform │              │              │
+│  52%         │  ~150ms      │  1,103       │  <12mo       │
+│  of covered  │  selector    │  Colombian   │  junior to   │
+│  eval rows   │  endpoint    │  towns live  │  SWE promo   │
+│  had no      │  (was 5-8s)  │  on platform │              │
+│  evidence    │              │              │              │
 └──────────────┴──────────────┴──────────────┴──────────────┘
 ```
 
-_Every number above is on the [CV](https://luisosio.dev/cv.pdf). Happy to walk through any of them in an interview._
-
-## track record
-
-- **TXEN** · ai engineer, dec 2025 – present. Started as full-stack engineer across Péntica and Simplica (B2B SaaS automating municipal tax compliance across all 1,103 Colombian municipalities) and transitioned into AI Engineer across our B2B SaaS products, including Doru (AI veterinary clinical-records SaaS). Built a hybrid RAG system in Python and FastAPI over municipal tax statutes (`pgvector`, keyword search, reranking, cited answers with abstention, validated against the accounting team's golden dataset) and engineered Doru's speech-to-text → LLM structured clinical-record pipeline with Pydantic validation + event-driven reminders. Took a hot endpoint from 5-8s to ~150ms across 14 modules, built a 19-phase PostgreSQL migration across 1,103 municipalities with SQS reverse sync, automated the ICA tax-matrix update email + attachment workflow, and migrated production to a new AWS account in under 12h. Stack: python/fastapi, typescript/node, react, postgresql, serverless aws.
-- **Nord Tech** · junior to software engineer in under a year. Real-time reservation and streaming platform (scala, kafka, websockets); modernized a 100+ endpoint fintech Node.js codebase ahead of AWS Lambda's Node 14 deprecation; supported two junior developers with task assignment and code reviews.
+_The 52% is measured in the [repo](https://github.com/LOsioChico/supplements-rag); the rest are on the [CV](https://luisosio.dev/cv.pdf). Happy to walk through any of them._
 
 ## now
 
 - working: ai engineer at TXEN (B2B SaaS — Python/FastAPI RAG & speech-to-text clinical AI pipelines, TypeScript/AWS)
-- building: python/fastapi AI systems — retrieval + agent eval tooling (repos land as they ship)
+- building: python/fastapi AI systems — [supplements-rag](https://github.com/LOsioChico/supplements-rag) shipped; next eval tooling lands as it ships
 - open to: ai engineer / backend / full-stack roles · remote · LATAM and US time zones
 
 <!-- now:start -->
@@ -101,21 +111,13 @@ _Every number above is on the [CV](https://luisosio.dev/cv.pdf). Happy to walk t
 > mdingest api: **v1 · live** · last public push: **[LOsioChico](https://github.com/LOsioChico/LOsioChico)** · pulse 2026-11-19
 <!-- now:end -->
 
-## stack
+## how i work
+
+Python/FastAPI for AI services; TypeScript/Node where production history lives. I ship MCP servers — mdingest, italki-cli, the dossier itself — I build AI tooling, not just use it. Verified the boring way: types, tests, evals. This README updates itself via CI; proof is in the Actions tab.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cfastapi%2Cts%2Creact%2Cnodejs%2Cpostgres%2Caws%2Ccloudflare%2Cdocker%2Cbun%2Castro%2Credis&theme=dark" />
   <img src="https://skillicons.dev/icons?i=py%2Cfastapi%2Cts%2Creact%2Cnodejs%2Cpostgres%2Caws%2Ccloudflare%2Cdocker%2Cbun%2Castro%2Credis&theme=light" alt="Python, FastAPI, TypeScript, React, Node.js, PostgreSQL, AWS, Cloudflare, Docker, Bun, Astro, Redis" />
 </picture>
 
-## how i work
-
-Python/FastAPI for AI services: agents, RAG, guardrails. TypeScript/Node.js where production history lives. I ship MCP servers — mdingest, italki-cli, and this dossier itself (`POST luisosio.dev/v1/mcp`) — I build AI tooling, not just use it. Verified the boring way: types, tests, receipts. This README updates itself via CI. Proof is in the Actions tab.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LOsioChico/LOsioChico/metrics-assets/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LOsioChico/LOsioChico/metrics-assets/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/LOsioChico/LOsioChico/metrics-assets/github-snake.svg" />
-</picture>
-
-<sub>[luisosio.dev](https://luisosio.dev) · [osiochico@gmail.com](mailto:osiochico@gmail.com) · [linkedin](https://linkedin.com/in/losiochico) · es native, en B2</sub>
+<sub>[luisosio.dev](https://luisosio.dev) · [osiochico@gmail.com](mailto:osiochico@gmail.com) · [linkedin](https://linkedin.com/in/losiochico) · [dev.to](https://dev.to/losiochico1) · es native, en B2</sub>

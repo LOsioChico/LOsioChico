@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 218" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" role="img" aria-label="terminal: curl mdingest api">
-  <rect width="780" height="218" rx="12" fill="#16130e" stroke="#383125"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" role="img" aria-label="terminal: a RAG abstains on a question it can't back">
+  <rect width="780" height="262" rx="12" fill="#16130e" stroke="#383125"/>
   <circle cx="30" cy="28" r="6" fill="#ff5f57"/>
   <circle cx="50" cy="28" r="6" fill="#febc2e"/>
   <circle cx="70" cy="28" r="6" fill="#28c840"/>
@@ -7,20 +7,28 @@
 
   <clipPath id="type">
     <rect x="24" y="48" width="0" height="26">
-      <animate attributeName="width" values="0.0;8.4;16.8;25.3;33.7;42.1;50.5;58.9;67.4;75.8;84.2;92.6;101.0;109.5;117.9;126.3;134.7;143.1;151.6;160.0;168.4;176.8;185.2;193.7;202.1;210.5;218.9;227.3;235.8;244.2;252.6;261.0;269.4;277.9;286.3;294.7;303.1;311.5;320.0;328.4;336.8;345.2;353.6;362.1;370.5;378.9;387.3;395.7;404.2" keyTimes="0.000;0.017;0.063;0.108;0.125;0.143;0.160;0.177;0.222;0.240;0.257;0.274;0.292;0.309;0.327;0.372;0.417;0.434;0.452;0.469;0.486;0.504;0.521;0.538;0.556;0.573;0.590;0.608;0.625;0.643;0.660;0.677;0.695;0.712;0.729;0.747;0.764;0.781;0.799;0.816;0.833;0.851;0.868;0.885;0.903;0.920;0.937;0.983;1.000" dur="1.61s" begin="0.6s" fill="freeze" calcMode="discrete"/>
+      <animate attributeName="width" values="0.0;8.4;16.8;25.2;33.6;42.0;50.4;58.8;67.2;75.6;84.0;92.4;100.8;109.2;117.6;126.0;134.4;142.8;151.2;159.6;168.0;176.4;184.8;193.2;201.6;210.0;218.4;226.8;235.2;243.6;252.0;260.4;268.8;277.2;285.6;294.0;302.4;310.8;319.2;327.6;336.0;344.4;352.8;361.2;369.6;378.0;386.4;394.8;403.2;411.6;420.0;428.4;436.8;445.2;453.6;462.0;470.4;478.8;487.2;495.6;504.0;512.4;520.8" keyTimes="0.000;0.016;0.032;0.048;0.065;0.081;0.097;0.113;0.129;0.145;0.161;0.177;0.194;0.210;0.226;0.242;0.258;0.274;0.290;0.306;0.323;0.339;0.355;0.371;0.387;0.403;0.419;0.435;0.452;0.468;0.484;0.500;0.516;0.532;0.548;0.565;0.581;0.597;0.613;0.629;0.645;0.661;0.677;0.694;0.710;0.726;0.742;0.758;0.774;0.790;0.806;0.823;0.839;0.855;0.871;0.887;0.903;0.919;0.935;0.952;0.968;0.984;1.000" dur="1.86s" begin="0.5s" fill="freeze" calcMode="discrete"/>
     </rect>
   </clipPath>
-  <text x="24" y="68" font-size="14" clip-path="url(#type)"><tspan fill="#e8895a">$</tspan><tspan fill="#efe9da"> curl https://mdingest.knightker.workers.dev/v1</tspan></text>
+  <text x="24" y="68" font-size="14" clip-path="url(#type)"><tspan fill="#e8895a">$</tspan><tspan fill="#efe9da"> curl -N luisosio.dev/sr/v1/ask?q=does+ashwagandha+help+sleep</tspan></text>
 
   <rect y="54" width="9" height="17" fill="#e8895a" opacity="0">
-    <set attributeName="opacity" to="1" begin="0.6s"/>
-    <animate attributeName="x" values="24.0;32.4;40.8;49.3;57.7;66.1;74.5;82.9;91.4;99.8;108.2;116.6;125.0;133.5;141.9;150.3;158.7;167.1;175.6;184.0;192.4;200.8;209.2;217.7;226.1;234.5;242.9;251.3;259.8;268.2;276.6;285.0;293.4;301.9;310.3;318.7;327.1;335.5;344.0;352.4;360.8;369.2;377.6;386.1;394.5;402.9;411.3;419.7;428.2" keyTimes="0.000;0.017;0.063;0.108;0.125;0.143;0.160;0.177;0.222;0.240;0.257;0.274;0.292;0.309;0.327;0.372;0.417;0.434;0.452;0.469;0.486;0.504;0.521;0.538;0.556;0.573;0.590;0.608;0.625;0.643;0.660;0.677;0.695;0.712;0.729;0.747;0.764;0.781;0.799;0.816;0.833;0.851;0.868;0.885;0.903;0.920;0.937;0.983;1.000" dur="1.61s" begin="0.6s" fill="freeze" calcMode="discrete"/>
-    <set attributeName="opacity" to="0" begin="2.564000000000001s"/>
+    <set attributeName="opacity" to="1" begin="0.5s"/>
+    <animate attributeName="x" values="24.0;32.4;40.8;49.2;57.6;66.0;74.4;82.8;91.2;99.6;108.0;116.4;124.8;133.2;141.6;150.0;158.4;166.8;175.2;183.6;192.0;200.4;208.8;217.2;225.6;234.0;242.4;250.8;259.2;267.6;276.0;284.4;292.8;301.2;309.6;318.0;326.4;334.8;343.2;351.6;360.0;368.4;376.8;385.2;393.6;402.0;410.4;418.8;427.2;435.6;444.0;452.4;460.8;469.2;477.6;486.0;494.4;502.8;511.2;519.6;528.0;536.4;544.8" keyTimes="0.000;0.016;0.032;0.048;0.065;0.081;0.097;0.113;0.129;0.145;0.161;0.177;0.194;0.210;0.226;0.242;0.258;0.274;0.290;0.306;0.323;0.339;0.355;0.371;0.387;0.403;0.419;0.435;0.452;0.468;0.484;0.500;0.516;0.532;0.548;0.565;0.581;0.597;0.613;0.629;0.645;0.661;0.677;0.694;0.710;0.726;0.742;0.758;0.774;0.790;0.806;0.823;0.839;0.855;0.871;0.887;0.903;0.919;0.935;0.952;0.968;0.984;1.000" dur="1.86s" begin="0.5s" fill="freeze" calcMode="discrete"/>
+    <set attributeName="opacity" to="0" begin="2.36s"/>
   </rect>
 
-  <text x="24" y="100" font-size="14" fill="#efe9da" opacity="0"><set attributeName="opacity" to="1" begin="2.564000000000001s"/>{"name":"mdingest","version":"v1","endpoints":{...}}</text>
-  <text x="24" y="128" font-size="14" fill="#7fb069" opacity="0"><set attributeName="opacity" to="1" begin="2.964000000000001s"/>200 OK · 3 providers · live on cloudflare workers</text>
-  <text x="24" y="156" font-size="14" fill="#9c937e" opacity="0"><set attributeName="opacity" to="1" begin="3.3640000000000008s"/># try it: real api, real markdown out</text>
+  <text x="24" y="96" font-size="14" fill="#9c937e" opacity="0"><set attributeName="opacity" to="1" begin="2.7s"/>event: screen       intent: evidence · injection 0.0003</text>
+  <text x="24" y="120" font-size="14" fill="#9c937e" opacity="0"><set attributeName="opacity" to="1" begin="3.1s"/>event: retrieve     BM25 + dense ──▶ pack of 10 PMIDs</text>
+  <text x="24" y="144" font-size="14" opacity="0"><set attributeName="opacity" to="1" begin="3.5s"/><tspan fill="#9c937e">event: claim_stamp  0.42 · 0.51 · 0.38</tspan><tspan fill="#e8895a">  — every claim below the 0.7 bar</tspan></text>
+  <text x="24" y="168" font-size="14" opacity="0"><set attributeName="opacity" to="1" begin="4.0s"/><tspan fill="#9c937e">event: verdict      score 0.31 ── evidence can't carry a claim</tspan></text>
 
-  <text x="24" y="192" font-size="14" opacity="0"><set attributeName="opacity" to="1" begin="3.814000000000001s"/><tspan fill="#e8895a">$ </tspan><tspan fill="#e8895a">&#9612;<animate attributeName="opacity" values="1;0" dur="1.06s" begin="3.814000000000001s" repeatCount="indefinite"/></tspan></text>
+  <rect x="18" y="174" width="0" height="22" fill="#1e2b1a" opacity="0.9">
+    <set attributeName="width" to="500" begin="4.6s"/>
+  </rect>
+  <text x="24" y="190" font-size="14" opacity="0"><set attributeName="opacity" to="1" begin="4.6s"/><tspan fill="#7fb069">event: status       "abstained" ── missing: [direct RCTs on sleep]</tspan></text>
+
+  <text x="24" y="216" font-size="14" fill="#9c937e" opacity="0"><set attributeName="opacity" to="1" begin="5.4s"/># it said no on purpose</text>
+
+  <text x="24" y="246" font-size="14" opacity="0"><set attributeName="opacity" to="1" begin="6.0s"/><tspan fill="#e8895a">$ </tspan><tspan fill="#e8895a">&#9612;<animate attributeName="opacity" values="1;0" dur="1.06s" begin="6.0s" repeatCount="indefinite"/></tspan></text>
 </svg>
