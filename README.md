@@ -101,7 +101,7 @@ _The run cost comes from the pipeline's own ledger in the [repo](https://github.
 <!-- now:start -->
 > _auto-updated daily by CI_
 >
-> mdingest api: **v1 · live** · last public push: **[LOsioChico](https://github.com/LOsioChico/LOsioChico)** · pulse 2026-11-26
+> mdingest api: **v1 · live** · last public push: **[LOsioChico](https://github.com/LOsioChico/LOsioChico)** · pulse 2026-11-27
 <!-- now:end -->
 
 ## how i work
